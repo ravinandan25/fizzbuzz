@@ -20,5 +20,11 @@ public class FizzBuzzTest {
       Assert.assertEquals("buzz",fizbuzz.convert(5));
 
    }
+   @Test
+   public void fizzBuzzconverternumberisdivisibelby5and3(){
+      FizzBuzzConverter fizbuzz=new FizzBuzzConverter();
+      Assert.assertEquals("fizzbuzz",fizbuzz.convert(15));
+
+   }
 
 }

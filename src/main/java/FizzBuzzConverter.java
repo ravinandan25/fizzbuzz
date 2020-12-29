@@ -5,6 +5,9 @@ public class FizzBuzzConverter {
         if(codetoconvert%3==0){
             return "fizz";
         }
+        if(codetoconvert%5==0){
+            return "buzz";
+        }
 
         return codetoconvert+"";
     }
